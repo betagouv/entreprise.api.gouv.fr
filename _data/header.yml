@@ -1,16 +1,5 @@
 ---
--
-  label: Documentation
-  url: https://doc.entreprise.api.gouv.fr
-  icon: external-link
--
-  label: Cas d’usage
+- label: Cas d’usage
   target: pages/use_cases.html
--
-  label: Stats
+- label: Stats
   target: pages/stats.html
--
-  label: Tableau de bord
-  url: https://dashboard.entreprise.api.gouv.fr
-  button: true
-  buttonclass: tpl-button--alternate

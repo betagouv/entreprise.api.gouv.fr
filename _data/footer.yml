@@ -1,33 +1,20 @@
 ---
 columns:
-  -
-    label: Aide
+  - label: Aide
     children:
-      -
-        label: Contact
-        url: mailto:support@entreprise.api.gouv.fr
-  -
-    label: Produit
+      - label: Contact
+        url: mailto:contact@particulier.api.gouv.fr
+  - label: Produit
     children:
-      -
-        label: API - Documentation
-        url: https://doc.entreprise.api.gouv.fr
-      -
-        label: Tableau de bord
-        url: https://dashboard.entreprise.api.gouv.fr
-      -
-        label: Cas d’usage
+      - label: API - Documentation
+        url: https://api.gouv.fr/api/api-particulier
+      - label: Cas d’usage
         target: pages/use_cases.html
-      -
-        label: Demander un accès
-        url: https://signup.entreprise.api.gouv.fr
-  - 
-    label: Légal
+      - label: Demander un accès
+        url: https://signup.api.gouv.fr/api-particulier
+  - label: Légal
     children:
-      -
-        label: Mentions
+      - label: Mentions
         target: pages/mentions.md
-      -
-        label: CGU
+      - label: CGU
         target: pages/cgu.md
-
