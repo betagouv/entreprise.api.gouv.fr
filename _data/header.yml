@@ -2,4 +2,4 @@
 - label: Cas d’usage
   target: pages/use_cases.html
 - label: Stats
-  target: pages/stats.html
+  url: https://status.particulier.api.gouv.fr
