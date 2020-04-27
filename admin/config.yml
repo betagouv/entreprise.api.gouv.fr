@@ -2,24 +2,24 @@
 
 backend:
   name: git-gateway
-  repo: etalab/entreprise.api.gouv.fr
+  repo: betagouv/particulier.api.gouv.fr
   branch: gh-pages
-  site_domain: ecstatic-noether-69093c.netlify.com/
-media_folder: 'assets/uploads'
+  site_domain: optimistic-kirch-8b7706.netlify.app
+media_folder: "assets/uploads"
 collections:
-  - name: 'pages'
-    label: 'Pages'
-    folder: 'pages/'
+  - name: "pages"
+    label: "Pages"
+    folder: "pages/"
     fields:
       - { name: Title }
-  - name: 'endpoint'
-    label: 'Endpoint'
-    folder: '_collections/catalogue'
+  - name: "endpoint"
+    label: "Endpoint"
+    folder: "_collections/catalogue"
     create: true
-    slug: '{{slug}}'
+    slug: "{{slug}}"
     editor:
       preview: true
     fields:
-      - { label: 'Categorie', name: 'category', widget: 'string' }
-      - { label: 'Nom', name: 'title', widget: 'string' }
-      - { label: 'Référence', name: 'reference', widget: 'string' }
+      - { label: "Categorie", name: "category", widget: "string" }
+      - { label: "Nom", name: "title", widget: "string" }
+      - { label: "Référence", name: "reference", widget: "string" }

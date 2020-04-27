@@ -13,21 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: API Entreprise
-email: support@entreprise.api.gouv.fr
+title: API Particulier
+email: contact@particulier.api.gouv.fr
 description: > # this means to ignore newlines until "baseurl:"
-  Simplifier les démarches des entreprises en récupérant pour elles
+  Simplifier les démarches des particuliers en récupérant pour eux
   leurs données et documents administratifs.
 
 # The baseurl option is set for links (especialy assets links) to work
 # with Github pages. For the production environment the website is built
 # with the `--baseurl ''` option so the site can be served from the root
 # domain. This way links will work in both environment.
-baseurl: "/entreprise.api.gouv.fr" # the subpath of your site, e.g. /blog
-url: "https://entreprise.api.gouv.fr" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://particulier.api.gouv.fr" # the base hostname & protocol for your site, e.g. http://example.com
 
 cgu_file_link: 'https://entreprise.api.gouv.fr/assets/cgu.pdf'
-signup_url: 'https://signup.entreprise.api.gouv.fr'
+signup_url: 'https://signup.particulier.api.gouv.fr'
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -47,7 +47,7 @@ collections:
 api_documentation_url: https://doc.entreprise.api.gouv.fr
 dashboard_url: https://dashboard.entreprise.api.gouv.fr
 gitbook_url: https://etalab-entreprise.gitbook.io/api-entreprise-documentation-infra
-signup_url: https://signup.entreprise.api.gouv.fr
+signup_url: https://signup.particulier.api.gouv.fr
 
 # Build settings
 markdown: kramdown
