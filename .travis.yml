@@ -9,6 +9,3 @@ before_script:
 script:
   - bundle install --path vendor/bundle
   - bundle exec jekyll build
-  - pandoc pages/cgu.md -o _site/assets/cgu.pdf --latex-engine=xelatex
-  # check pdf has at least one page
-  - pdfinfo _site/assets/cgu.pdf | grep -w 'Pages:\s*[1-9].*'
