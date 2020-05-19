@@ -8,12 +8,12 @@ layout: default
       <h1 class="tpl-hero__title">
         <div class="headline">
           <span class="headline-core">Vous êtes&nbsp;</span><span class="alternate">une administration ?</span><span class="alternate2">éditeur prestataire d'une administration ?</span></div>
-        <div class="subtext">Simplifiez les démarches des entreprises et des associations<br />en récupérant pour elles leurs informations administratives</div>
+        <div class="subtext">Simplifiez les démarches des particuliers en récupérant<br /> pour eux leurs informations administratives</div>
     </div>
   </section>
   <section class="tpl-section use-cases">
     <div class="tpl-container">
-      <h2>Dans quels cas utiliser API Entreprise ?</h2>
+      <h2>Dans quels cas utiliser API Particulier ?</h2>
       <div class="use-cases__list">
         {% include usecases.html %}
       </div>
@@ -26,17 +26,16 @@ layout: default
   </section>
   <section class="tpl-section access">
     <div class="tpl-container">
-      <h2>Comment demander un accès à l’API Entreprise ?</h2>
-      <p>Seules les administrations et les sociétés chargées d’une mission de service public sont éligibles.</p>
-      <a class="tpl-button tpl-button--primary" href="{{ site.baseurl }}{% link pages/demander_un_acces.md %}">
+      <h2>Comment demander un accès à l’API Particulier ?</h2>
+      <p>Seules les administrations et les collectivités chargées d’une mission de service public sont éligibles.</p>
+      <a class="tpl-button tpl-button--primary" href="https://signup.api.gouv.fr/api-particulier">
         Demander un accès
       </a>
-      <p>Vous n’êtes pas une administration ? Utilisez <a href="https://entreprise.data.gouv.fr">entreprise.data.gouv.fr</a></p>
     </div>
   </section>
   <section class="tpl-section join">
     <div class="tpl-container">
-      <h2>Pourquoi utiliser API Entreprise ?</h2>
+      <h2>Pourquoi utiliser API Particulier ?</h2>
       <div class="tpl-flex-row">
         <div class="tpl-card">
           <div class="tpl-card__header">
@@ -48,8 +47,8 @@ layout: default
               <dt>Avant :</dt>
               <dd>Vous deviez aller demander toutes les données dont vous aviez besoins auprès des différentes des administrations. Cette recherche n’était pas toujours fructueuse car les organisations n'ont pas toujours un site ou un contact public pour leurs API.
               </dd>
-              <dt>Aujourd’hui, avec API Entreprise :</dt>
-              <dd>API Entreprise s’occupe de démarcher les administrations et de faire les différentes demandes d’accès.
+              <dt>Aujourd’hui, avec API Particulier :</dt>
+              <dd>API Particulier s’occupe de démarcher les administrations et de faire les différentes demandes d’accès.
               </dd>
             </dl>
           </div>
@@ -64,8 +63,8 @@ layout: default
               <dt>Avant :</dt>
               <dd>Vous étiez obligés de vous connecter et de vous adapter à tous les formats différents des API. Vous passiez beaucoup de temps à lire les documentations techniques de chaque DSI afin d’effectuer les différentes intégrations.
               </dd>
-              <dt>Aujourd’hui, avec API Entreprise :</dt>
-              <dd>Désormais, API Entreprise s’occupe de tout. L’interfaçage ne se fait qu’avec nous, dans des standards à jour des contraintes industrielles. 
+              <dt>Aujourd’hui, avec API Particulier :</dt>
+              <dd>Désormais, API Particulier s’occupe de tout. L’interfaçage ne se fait qu’avec nous, dans des standards à jour des contraintes industrielles. 
               </dd>
             </dl>
           </div>
@@ -80,7 +79,7 @@ layout: default
               <dt>Avant :</dt>
               <dd>Vous deviez gérer plusieurs mots de passe, plusieurs contacts techniques et métiers.
               </dd>
-              <dt>Aujourd’hui, avec API Entreprise :</dt>
+              <dt>Aujourd’hui, avec API Particulier :</dt>
               <dd>Vous avez une seule clé d’accès sécurisée, nous nous occupons d’agréger et de vous restituer les connaissances techniques et métiers.
               </dd>
             </dl>
@@ -94,45 +93,10 @@ layout: default
       <h2>Nos fournisseurs de données</h2>
       <ul class="providers__main text-center">
         <li>
-          <img class="" src="{{ site.baseurl }}{% link assets/images/providers/insee.png %}" alt="INSEE">
+          <img class="" src="{{ site.baseurl }}{% link assets/images/providers/caf.jpg %}" alt="CAF" title="Caisse nationale des affaires familiales">
         </li>
         <li>
-          <img class="" src="{{ site.baseurl }}{% link assets/images/providers/infogreffe.png %}" alt="Infogreffe">
-        </li>
-        <li>
-          <img class="" src="{{ site.baseurl }}{% link assets/images/providers/dgfip.png %}" alt="Direction Générale des Finances Publiques">
-        </li>
-        <li>
-          <img class="" src="{{ site.baseurl }}{% link assets/images/providers/acoss.png %}" alt="ACOSS">
-        </li>
-      </ul>
-      <ul class="providers__others text-center">
-        <li>
-          <img class="" src="{{ site.baseurl }}{% link assets/images/providers/inpi.png %}" alt="INPI">
-        </li>
-        <li>
-          <img class="" src="{{ site.baseurl }}{% link assets/images/providers/qualibat.png %}" alt="Qualibat">
-        </li>
-        <li>
-          <img class="" src="{{ site.baseurl }}{% link assets/images/providers/rna.svg %}" alt="Répertoire National des Associations">
-        </li>
-        <li>
-          <img class="" src="{{ site.baseurl }}{% link assets/images/providers/cnetp.svg %}" alt="CNETP">
-        </li>
-        <li>
-          <img class="" src="{{ site.baseurl }}{% link assets/images/providers/probtp.png %}" alt="ProBTP">
-        </li>
-        <li>
-          <img class="" src="{{ site.baseurl }}{% link assets/images/providers/msa.png %}" alt="MSA">
-        </li>
-        <li>
-          <img class="" src="{{ site.baseurl }}{% link assets/images/providers/opqibi.png %}" alt="OPQIBI">
-        </li>
-        <li>
-          <img class="" src="{{ site.baseurl }}{% link assets/images/providers/fntp.png %}" alt="FNTP">
-        </li>
-        <li>
-          <img class="" src="{{ site.baseurl }}{% link assets/images/providers/agefiph.png %}" alt="AGEFIPH">
+          <img class="" src="{{ site.baseurl }}{% link assets/images/providers/dgfip.png %}" alt="Direction Générale des Finances Publiques" title="Direction Générale des Finances Publiques">
         </li>
       </ul>
     </div>
