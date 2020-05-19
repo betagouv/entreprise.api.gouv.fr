@@ -1,10 +1,11 @@
 language: ruby
 dist: trusty
+install:
+  - gem uninstall bundler
+  - gem install bundler --version '2.1.4'
 before_script:
   # theses are dependencies of pandoc & pdfinfo
   - sudo apt-get install texlive texlive-latex-extra texlive-xetex lmodern pandoc fonts-lato poppler-utils -y
 script:
+  - bundle install --path vendor/bundle
   - bundle exec jekyll build
-  - pandoc pages/cgu.md -o _site/assets/cgu.pdf --latex-engine=xelatex
-  # check pdf has at least one page
-  - pdfinfo _site/assets/cgu.pdf | grep -w 'Pages:\s*[1-9].*'

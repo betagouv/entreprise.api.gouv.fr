@@ -16,5 +16,3 @@ columns:
     children:
       - label: Mentions
         target: pages/mentions.md
-      - label: CGU
-        target: pages/cgu.md

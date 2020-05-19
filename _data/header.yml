@@ -1,5 +1,9 @@
 ---
 - label: Cas d’usage
   target: pages/use_cases.html
+- label: Données disponibles
+  target: pages/available_data.html
+- label: Mes tokens d'accès
+  url: https://particulier.api.gouv.fr/dashboard
 - label: Stats
   url: https://status.particulier.api.gouv.fr
